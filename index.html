@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Velhos Capítulos</title>
 
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
@@ -22,7 +24,7 @@
 
 
 
-    <link rel="stylesheet" href="">
+    
 
 
 
@@ -35,7 +37,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Velhos Capítulos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">oi</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
@@ -52,19 +54,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown
+                                Mais
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -77,10 +73,12 @@
 
     </header>
 
+    <section class="hero-section">
+    </section>
 
     <section class="catalogo-livro">
 
-        <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGl2cm98ZW58MHx8MHx8fDA%3D" class="img-fluid rounded-start" alt="O Último Eco do Silêncio">
@@ -90,6 +88,7 @@
                         <h5 class="card-title">O Último Eco do Silêncio</h5>
                         <p class="card-text">Um detetive aposentado é forçado a investigar um crime que espelha exatamente um caso não resolvido de 30 anos atrás.</p>
                         <p class="card-text"><small class="text-body-secondary">Avaliação: ⭐⭐⭐⭐⭐</small></p>
+                        <button href="#" id="button" class="btn btn-primary">Compre aqui!</button>
                     </div>
                 </div>
             </div>
@@ -98,22 +97,75 @@
          <div class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
                 <div class="col-md-4">
-                    <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGl2cm98ZW58MHx8MHx8fDA%3D" class="img-fluid rounded-start" alt="O Último Eco do Silêncio">
+                    <img src="https://images.unsplash.com/photo-1722285260925-a62e03135815?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid rounded-start" alt="A Herança das Sombras Tecidas">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">A Herança das Sombras Tecidas</h5>
                         <p class="card-text">Em um mundo onde a magia é costurada nas roupas, uma alfaiate órfã descobre que possui o fio proibido. <p>
                         <p class="card-text"><small class="text-body-secondary">Avaliação: ⭐⭐⭐</small></p>
+                        <button href="#" id="button" class="btn btn-primary" id="botaoComprar">Compre aqui!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://unsplash.com/pt-br/fotografias/um-livro-aberto-sentado-em-cima-de-um-tronco-IIFGTiWFHMI" class="img-fluid rounded-start" alt="Protocolo Kepler-9">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Protocolo Kepler-9</h5>
+                        <p class="card-text">A tripulação de uma nave de colonização acorda do sono criogênico apenas para descobrir que a Terra nunca enviou os mapas de destino. <p>
+                        <p class="card-text"><small class="text-body-secondary">Avaliação: ⭐⭐⭐⭐⭐</small></p>
+                        <button href="#" id="button" class="btn btn-primary" id="botaoComprar" >Compre aqui!</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="" class="img-fluid rounded-start" alt="Cartas para o Outono que Não Veio">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartas para o Outono que Não Veio</h5>
+                        <p class="card-text">Dois amantes separados por uma guerra trocam cartas que levam décadas para serem entregues. <p>
+                        <p class="card-text"><small class="text-body-secondary">Avaliação: ⭐⭐⭐⭐</small></p>
+                        <button href="#" id="button" class="btn btn-primary" id="botaoComprar">Compre aqui!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://unsplash.com/pt-br/fotografias/um-livro-em-uma-pilha-de-folhas-qXMzLWh-gbI" class="img-fluid rounded-start" alt="A Herança das Sombras Tecidas">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Protocolo Kepler-9</h5>
+                        <p class="card-text">A tripulação de uma nave de colonização acorda do sono criogênico apenas para descobrir que a Terra nunca enviou os mapas de destino. <p>
+                        <p class="card-text"><small class="text-body-secondary">Avaliação: ⭐⭐⭐⭐⭐</small></p>
+                        <button href="#" id="button" class="btn btn-primary" id="botaoComprar">Go somewhere</button>
+                        
                     </div>
                 </div>
             </div>
         </div>
 
 
+
+
     </section>
 
-    <section class="generos">
+    <section class="formulario-contato">
     </section>
 
 

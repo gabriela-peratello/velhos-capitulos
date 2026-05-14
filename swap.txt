@@ -12,6 +12,10 @@ HTML semântico
 Responsividade
 Organização utilizando padrão BEM
 
+
+PRÓXIMO COMIT
+10:10h
+
 O QUE ESTOU FAZENDO?
 
 Gabriela:
@@ -30,3 +34,8 @@ Mariana:
 Maria Julia:
 
 - Vou pegar os sweet Alerts e fazer os componentes de botão
+
+
+
+LINK DO REPOSITÓRIO
+https://github.com/gabriela-peratello/velhos-capitulos.git
