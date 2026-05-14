@@ -3,35 +3,48 @@ document.getElementById('botaoComprar1').addEventListener('click', function () {
         'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
         'success');
 });
+document.getElementById('botaoComprar2').addEventListener('click', function () {
+    Swal.fire('Pedido efetuado com sucesso!',
+        'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
+        'success');
+});
+document.getElementById('botaoComprar3').addEventListener('click', function () {
+    Swal.fire('Pedido efetuado com sucesso!',
+        'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
+        'success');
+});
+document.getElementById('botaoComprar4').addEventListener('click', function () {
+    Swal.fire('Pedido efetuado com sucesso!',
+        'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
+        'success');
+});
+document.getElementById('botaoComprar5').addEventListener('click', function () {
+    Swal.fire('Pedido efetuado com sucesso!',
+        'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
+        'success');
+});
+document.getElementById('botaoComprar6').addEventListener('click', function () {
+    Swal.fire('Pedido efetuado com sucesso!',
+        'Seu pedido foi efetuado com sucesso! aproveite sua leitura 📚',
+        'success');
+});
 
 
 
-document.getElementById('btnForm').addEventListener('click', function(){
-    const swalWithBootstrapButtons = Swal.mixin({
-        customClass: {
-            confirmButton: "btn btn-success",
-            cancelButton: "btn btn-danger"
-        },
-        buttonsStyling: false
-    });
-    swalWithBootstrapButtons.fire({
-        title: "Are you sure?",
-        text: "You won't be able to revert this!",
+document.getElementById('btnForm').addEventListener('click', function () {
+    Swal.fire({
+        title: "Tem certeza de que quer enviar?",
+        text: "Essa ação não pode ser revertida.",
         icon: "warning",
         showCancelButton: true,
-        confirmButtonText: "Yes, delete it!",
-        cancelButtonText: "No, cancel!",
-        reverseButtons: true
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sim, enviar!"
     }).then((result) => {
-        if (result.isConfirmed) swalWithBootstrapButtons.fire({
-            title: "Deleted!",
-            text: "Your file has been deleted.",
+        if (result.isConfirmed) Swal.fire({
+            title: "Enviado!",
+            text: "Seu formulário foi enviado com sucesso!",
             icon: "success"
-        });
-        else if (result.dismiss === Swal.DismissReason.cancel) swalWithBootstrapButtons.fire({
-            title: "Cancelled",
-            text: "Your imaginary file is safe :)",
-            icon: "error"
         });
     });
 }); 

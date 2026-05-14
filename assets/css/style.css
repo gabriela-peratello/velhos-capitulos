@@ -1,6 +1,4 @@
 
-
-
 * {
     margin: 0;
   padding: 0;
@@ -8,6 +6,10 @@
 
 }
 
+body {
+    padding-top: 80px;
+    gap: 20px;
+}
 
 .navbar-brand{
   display: flex;
@@ -17,21 +19,25 @@
   
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+}
 
+p{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
 header{
-    margin-bottom: 90px;
-
-
+    margin-bottom: 60px;
 }
 
 .hero-section{
     margin-bottom: 30px;
 }
-
-
-
-
 
 a{
     color: black;
@@ -40,9 +46,29 @@ a{
 }
 
 
-
 .carousel-item{
     height: 50vh;
-    
-    
+    margin-bottom: 30px;
 }
+
+.catalogo-livro {
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center; 
+    gap: 20px;           
+    padding: 20px;
+}
+
+.catalogo-livro img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Centraliza o formulário */
+.formulario-contato {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+

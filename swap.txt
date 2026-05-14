@@ -39,3 +39,95 @@ Maria Julia:
 
 LINK DO REPOSITÓRIO
 https://github.com/gabriela-peratello/velhos-capitulos.git
+
+
+
+
+.catalogo-livro {
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center;
+    gap: 20px;            
+    padding: 20px;
+}
+
+
+.catalogo-livro img {
+    object-fit: cover;
+    height: 100%;
+}
+
+
+.formulario-contato {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+
+header{
+    margin-bottom: 30px;
+}
+
+.carousel-item{
+    height: 10vh;
+}
+
+
+
+body {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.navbar-brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  
+}
+
+
+
+header{
+    margin-bottom: 90px;
+
+
+}
+
+.hero-section{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.carousel-item{
+    height: 50vh;
+    
+    
+}
