@@ -1,0 +1,32 @@
+O QUE NÓS PRECISAMOS FAZER?
+
+Navbar responsiva com dropdown
+Hero section
+Cards de apresentação
+Galeria de imagens
+Formulário de contato
+Rodapé
+Alertas personalizados com SweetAlert2
+Bootstrap Icons
+HTML semântico
+Responsividade
+Organização utilizando padrão BEM
+
+O QUE ESTOU FAZENDO?
+
+Gabriela:
+- Separando as imagens
+
+
+
+Mariana:
+- Pegando componentes do Bootstrap
+- 
+
+
+
+
+
+Maria Julia:
+
+- Vou pegar os sweet Alerts e fazer os componentes de botão
