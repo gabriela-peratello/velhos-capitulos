@@ -15,7 +15,7 @@ Organização utilizando padrão BEM
 O QUE ESTOU FAZENDO?
 
 Gabriela:
-- Separando as imagens
+- Separando as imagens do Unsplash e pedindo títulos fictícios para o Gemini
 
 
 
